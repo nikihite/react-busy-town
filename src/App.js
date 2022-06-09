@@ -51,6 +51,7 @@ function App() {
             <button onClick={() => setAlienSize(alienSize + 1) }>Oh no! The alien is gobblin up all the electricity!</button>
             {/* when you click this button, the lizard's size in state should go down by one */}
             <button onClick={() => setLizardSize(lizardSize - 1) }>Amazing! The alien zapped the lizard!</button>
+          hi
           </div>
         </div>
         <div className="monster">
